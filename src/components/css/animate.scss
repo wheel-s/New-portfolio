@@ -1,0 +1,35 @@
+.center{
+  margin-left: 5.7rem;
+  margin-top: 4rem;
+  display: grid;
+  justify-content: center;
+}
+
+.letters {
+font-family: "Love Ya Like A Sister", cursive;
+  display: inline-block;
+  opacity: 0;
+  animation: bounceIn 1s 1s;
+  animation-fill-mode: forwards;
+  min-width: 10px;
+  margin-left:2px ;
+   color: hsl(36, 80%, 40%);
+  
+}
+.letters-hover{
+ font-family: "Love Ya Like A Sister", cursive;
+  min-width: 10px;
+  display: inline block;
+  animation-fill-mode: both;
+    margin-left:2px ;
+   color: hsl(36, 80%, 40%);
+  &:hover{
+    animation:bounceIn 1s ;
+    color: hsl(51, 30%, 100%);
+  }
+}
+@for $i from 1 through 45{
+  .letters._#{$i}{
+    animation-delay:#{$i/15}s;
+  }
+}

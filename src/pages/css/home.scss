@@ -1,0 +1,49 @@
+.center{
+  margin-left: 5rem;
+  margin-top: 6rem;
+  display: grid;
+  justify-content: center;
+}
+.fam{
+  font-family: 'La Belle Aurore';
+  color: white;
+  height: auto;
+  width: 11rem;
+  margin-left: 3rem;
+  opacity: 0;
+  animation: rotateIn 1s linear both;
+  animation-delay: 1s;
+
+  &::before{
+    content: '<h1>';
+    font-family: 'La Belle Aurore';
+    color:hsl(51, 100%, 50%);
+    font-size: 18px;
+    position: absolute;
+   margin-top: -1rem;
+   opacity: .6;
+  }
+  &::after{
+    content: '<h1/>';
+    font-family: 'La Belle Aurore';
+    color:hsl(51, 100%, 50%);
+    font-size: 18px;
+    position: absolute;
+   margin-top: 1rem;
+   animation: fadeIn 1s 1.7s backwards;
+   opacity: 0.6;
+  }
+
+}
+.header{
+   p{
+  margin-top: 2rem;
+  color: white;
+  margin-right: 2rem;
+font-family: "Love Ya Like A Sister", cursive;
+ }
+}
+.sub{
+    font-size: 1.1rem;
+    font-family: 'La Belle Aurore';
+}

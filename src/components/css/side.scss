@@ -1,0 +1,58 @@
+.sidebar{
+    background:#181818 ;
+    width: 60px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    z-index:3;
+    min-height: 500px;
+    
+    .logo{
+        display: block;
+        padding: 8px 0;
+        text-decoration: none;
+        color: hsl(25, 23%,69%);
+        img{
+            display: block;
+            margin: 8px auto;
+             width: 55px;
+             height: 60px;
+             border-radius: 2rem;
+        }
+        h2{
+         font-size: 1rem;
+         text-align: center;
+        font-family: 'La Belle Aurore';
+        
+        }
+    
+    }
+
+    .nav{
+        
+       display:grid;
+       justify-content: center;
+
+        img{
+            margin-top: 2rem;
+         &:hover{
+           background: hsl(40, 100%, 53%);
+           border-radius: 1rem;
+           padding: .1rem;
+         }
+        }
+        a.active{
+        img{
+         background:hsl(40, 100%, 60%);
+         padding: .2rem;
+         border-radius: 1rem; 
+        }
+        }
+       .home{
+        margin-top: 6rem;
+        margin-bottom:-.8rem;
+       }
+    }
+}
+
+
