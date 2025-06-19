@@ -30,16 +30,27 @@ const About = () => {
       <div  className='centq' >
        <h1>Skills</h1>
       <ul>
-        <li>Html5, CSS3, TailwindCSS, SCSS(Sass)</li>
-        <li>JavaScript(ES6+), TypeScript</li>
-        <li>React.js, Vue.js, Angular</li>
-        <li>Node.js, Express.js, Fast-api</li>
-        <li>Java, Python, Sprngboot</li>
-        <li>momgoDB, my-SQL, PostgreSQL, Firebase, Supabase</li>
-        <li>Git, GitHub, Docker, CI/CD Pipelines</li>
-        <li>AWS, Azure, Hostinger</li> 
-        <li>Troubleshooting and debugging</li> 
-        <li>Up-to-date practices</li>
+        <div className='flex'>
+          <li>Html5, CSS3, TailwindCSS, SCSS(Sass)</li>
+           <li>JavaScript(ES6+), TypeScript</li>
+        </div>
+       <div className='flex'>
+          <li>React.js, Vue.js, Angular</li>
+          <li>Node.js, Express.js, Fast-api</li>
+            <li>Java, Python, Sprngboot</li>
+       </div>
+        <div className='flex'>
+         
+           <li>momgoDB, my-SQL, PostgreSQL, Firebase, Supabase</li>
+           <li>Git, GitHub, Docker, CI/CD Pipelines</li>
+        </div>
+        <div className='flex'>
+           <li>AWS, Azure, Hostinger</li> 
+           <li>Troubleshooting and debugging</li> 
+          <li>Up-to-date practices</li>
+        </div>
+
+       
       </ul>
       </div>
       <div className='projects'>  
