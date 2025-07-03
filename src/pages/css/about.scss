@@ -10,7 +10,7 @@
     margin-top: -1rem;
     padding: 1rem;
     margin-bottom: 1.5rem;
- font-family: "Love Ya Like A Sister", cursive;
+ font-family: "Edu VIC WA NT Hand", cursive;
     color: white;
     animation: pulse 1s;
     &:nth-of-type(1){
@@ -49,11 +49,12 @@ justify-content: center;
     border-radius: 1rem;
     width: 16rem;
     text-align: center;
-    height: 16rem;
     margin-bottom: 2rem;
     box-sizing: border-box;
     a{
       display: block;
+      margin-bottom: 1rem;
+      margin-top: 1rem;
       text-decoration: 1rem;
       color: hsl(0, 0%, 85%);
       &:hover{

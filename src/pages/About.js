@@ -74,7 +74,7 @@ const About = () => {
             Node.Js,MongoDB
 
           </span>
-         <Link to='https://wheel-s/verizon'>Live Demo</Link>
+         <Link to='https://github.com/wheel-s/verizon'>View Github</Link>
         </div>
         <div className='square '>
           <h2>E-Commerce</h2>
@@ -86,7 +86,7 @@ const About = () => {
             React.Js,
             TailwindCSS,SCSS....
           </span>
-          <Link>Live Demo</Link>
+          <Link to='https://github.com/wheel-s/shopify'>View Github</Link>
         </div>
         <div className='square'>
         <h2>Edge-Plan</h2>
@@ -95,7 +95,7 @@ const About = () => {
           FastApi,PostgreSQL,Typescript,
           React.Js,TailwindCSS,SCSS...
         </span>
-        <Link>Live Demo</Link>
+        <Link to='https://github.com/wheel-s/event'>View Github</Link>
         </div>
       </div>
     </div>
