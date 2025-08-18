@@ -8,25 +8,27 @@
     margin-bottom: -.11rem;
   }
     p{
-    text-align: center;
-    padding: 1rem;
-    margin-bottom: -1.5rem;
-     font-family: "Edu VIC WA NT Hand", cursive;
-    color: white;
-    animation: pulse 1s;
-    &:nth-of-type(1){
-     animation-delay: 1.1s;
-    }
-      &:nth-of-type(2){
-     animation-delay: 1.1s;
-    }
+      font-size: 1.15rem;
+      text-align: center;
+      padding: 1rem;
+      margin-bottom: -1.5rem;
+      font-family: "Patrick Hand", cursive;
+      color: white;
+      animation: pulse 1s;
+      &:nth-of-type(1){
+      animation-delay: 1.1s;
+      }
+        &:nth-of-type(2){
+      animation-delay: 1.1s;
+      }
   }
   .flex{
     display: flex;
     p{
+
     margin-top: 2rem;
     margin-bottom: -4rem;
-    font-size: .9rem;
+    font-size: 1rem;
    
     }
     img{

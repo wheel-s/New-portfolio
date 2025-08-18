@@ -4,7 +4,7 @@ body{
 margin: 0;
   font-family:  'Helvetica Neue';
   color: #444;
-  background: hsl(201, 94%, 14%);
+  background: hsl(212, 44%, 15%);
 }
 
 .projects{
@@ -20,4 +20,5 @@ margin: 0;
   animation-fill-mode: forwards;
   color: hsl(201, 94%, 14%);
 
+  
 }

@@ -37,7 +37,7 @@ const About = () => {
        <div className='flex'>
           <li>React.js, Vue.js, Angular</li>
           <li>Node.js, Express.js, Fast-api</li>
-            <li>Java, Python, Sprngboot</li>
+            <li>Java, Python, C , C++</li>
        </div>
         <div className='flex'>
          
@@ -90,12 +90,12 @@ const About = () => {
         </div>
         <div className='square'>
         <h2>Edge-Plan</h2>
-        <p>An AI-Powered Event Planner having several features</p>
+        <p>An AI-Powered task-manager that helps users achieve some-what long term goals</p>
         <span>
           FastApi,PostgreSQL,Typescript,
           React.Js,TailwindCSS,SCSS...
         </span>
-        <Link to='https://github.com/wheel-s/event'>View Github</Link>
+        <Link to='https://github.com/wheel-s/task-manager'>View Github</Link>
         </div>
       </div>
     </div>
