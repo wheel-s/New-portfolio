@@ -26,7 +26,7 @@ const Home = () => {
 
     
     let [Class, setClass] =useState('letters')
-    const name = ["F",'u','l','l','S','t','a', 'c','k', ' ','d','e','v','e','l','o','p','e','r','.']
+    const name = ["F",'u','l','l','S','t','a','c','k', ' ','d','e','v','e','l','o','p','e','r','.']
     useEffect(()=>{
       setTimeout(() => {
       setClass('letters-hover')
@@ -39,10 +39,10 @@ const Home = () => {
       <h1 className='fadein'>
         <span className={Class}> H</span>
         <span className={Class}>i</span>
-         <span className={Class}>🕸️,</span>
-        <br/>
-        <span className={`${Class} _12`}>I</span>
-        <span className={`${Class} _13`}>'m George,</span>
+         <span className={Class}>👋🏼, </span>
+       
+        <span className={`${Class} _12`}>I'm George</span>
+        
 
       </h1>
        <h1 className='top'> 

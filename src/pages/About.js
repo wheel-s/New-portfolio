@@ -49,7 +49,7 @@ const About = () => {
 
       </div>
       <section className='fadein todo'>
-        <h2> <img src={info} alt={'call'} width={35} className='img'/>What I do:</h2>
+        <h2> <img src={info} alt={'call'} width={31} className='img'/>What I do:</h2>
         <p>
           <span>Front-end development: </span>Build responsive, modern user interfaces,
           with React and TypeScript.
@@ -86,8 +86,8 @@ const About = () => {
             core functionality
           </p>
           <span>
-            React.Js,CSS3,
-            Node.Js,MongoDB
+            React.Js, CSS3,
+             Node.Js, MongoDB
           </span>
          <Link to='https://github.com/wheel-s/verizon'target='blank' className='a2'><img src={link} alt={'link'} width={25} className='img'/>View Github</Link>
         </div>
@@ -97,9 +97,8 @@ const About = () => {
             with user authentication and role-based access
           </p>
           <span>
-            Springboot,MySQL,TypeScript,
-            React.Js,
-            TailwindCSS,SCSS....
+            Springboot, MySQL, TypeScript,
+            React.Js, TailwindCSS, SCSS....
           </span>
           <Link to='https://github.com/wheel-s/shopify' target='blank' className='a2'><img src={link} alt={'link'} width={25} className='img'/>View Github</Link>
         </div>
@@ -108,8 +107,8 @@ const About = () => {
         <h2 className='h3'>task-manager</h2>
         <p>An AI-Powered task-manager that helps users achieve some-what long term goals</p>
         <span>
-          FastApi,PostgreSQL,Typescript,
-          React.Js,TailwindCSS,SCSS...
+          FastApi, PostgreSQL, Typescript,
+          React.Js, TailwindCSS, SCSS...
         </span>
         <Link to='https://github.com/wheel-s/task-manager' target='blank' className='a2'><img src={link} alt={'link'} width={25} className='img'/>View Github</Link>
         </div>

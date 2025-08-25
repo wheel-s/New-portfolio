@@ -7,18 +7,19 @@
   
   
   p{
-    font-size: 1rem;
-    text-align: center;
+    font-size: 1.1rem;
+    text-align:start;
+    margin-left: 1rem;
     margin-top: -1rem;
     padding: .85rem;
     margin-bottom: 1.5rem;
-    letter-spacing: -.5px;
+    font-family: "patrick hand";
     font-weight: 500;
     color:hsl(200, 10%, 53%);
   }
   
   h1{
-
+    font-size: 1.4rem;
     color: hsl(200, 10%, 80%);
     text-align: center;
     margin-top: 1rem;
@@ -51,10 +52,10 @@
 
     }
     span{
-      font-family: "patricks hand", cursive;
+      font-family: "love ya like a sister", cursive;
       color: wheat;
       margin-bottom: 2rem;
-      font-size: .87rem;
+      font-size: 1rem;
     }
     p{
       margin-bottom:1px;
@@ -80,14 +81,20 @@
 }
 .todo{
   h2{
-    text-align: center;
+    font-size: 1.05rem;
+    text-align:start;
+    margin-left: 2rem;
     color: hsl(200, 10%, 80%);
   }
   span{
     color: hsl(0, 0%, 70%);
+    font-family:sans-serif;
+    font-weight: 600;
+    font-size: .9rem;
   }
   p{
-    text-align: start;
+  text-align: start;
+    font-size: .99rem;
     margin-left: 1rem;
   }
 }
@@ -127,4 +134,5 @@
   .todo{
     width: 50rem;
   }
+
 }

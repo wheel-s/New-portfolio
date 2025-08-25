@@ -49,7 +49,7 @@ const Side = () => {
            <img src={img} alt={'home'} width={40}/>
         </NavLink>
       </nav>
-         <nav  className='nav fadein' >
+         <nav  className='nav fadein info' >
         <NavLink  to="https://github.com/wheel-s" target='blank'>
            <img src={github} alt={'home'} width={36} className='home'/>
         </NavLink>

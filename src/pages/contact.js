@@ -26,6 +26,7 @@ const Contact = () => {
   },[])
 
   return (
+    <div >
     <div className='contact'>
     <h1 className='fadein'>
       Get In Touch
@@ -52,7 +53,7 @@ const Contact = () => {
       />
        </div>
 
-
+    </div>
     </div>
   )
 }

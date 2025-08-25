@@ -7,23 +7,24 @@
 }
 
 .letters {
-
+  font-size: 1.5rem;
   display: inline-block;
   opacity: 0;
   animation: bounceIn 1s 1s;
   animation-fill-mode: forwards;
   min-width: 10px;
-  letter-spacing: -2.8px;
+  letter-spacing: -3.4px;
   margin-left:2px ;
   color: hsl(36, 0%, 85%);
   
 }
 .letters-hover{
 
+  font-size: 1.5rem;
    min-width: 10px;
    animation-fill-mode: both;
    margin-left:2px;
-   letter-spacing: -2px;
+   letter-spacing: -1.5px;
    color: hsl(200, 10%, 80%);
   &:hover{
     animation:rubberBand 1s ;
