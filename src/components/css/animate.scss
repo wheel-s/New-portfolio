@@ -12,19 +12,17 @@
   opacity: 0;
   animation: bounceIn 1s 1s;
   animation-fill-mode: forwards;
-  min-width: 10px;
-  letter-spacing: -3.4px;
-  margin-left:2px ;
+   min-width: 3px;
+  margin-left:1px ;
   color: hsl(36, 0%, 85%);
   
 }
 .letters-hover{
 
   font-size: 1.5rem;
-   min-width: 10px;
+   min-width:.26px;
    animation-fill-mode: both;
-   margin-left:2px;
-   letter-spacing: -1.5px;
+   margin-left:.9px;
    color: hsl(200, 10%, 80%);
   &:hover{
     animation:rubberBand 1s ;
