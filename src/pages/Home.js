@@ -5,10 +5,28 @@ import Animate from '../components/Animate'
 import './css/home.scss'
 
 const Home = () => {
- 
-    let name
+
+  useEffect(()=>{
+    const fadeElement = document.querySelectorAll('.fadein')
+    const observer = new IntersectionObserver(entries =>{
+      entries.forEach(entry =>{
+        if(entry.isIntersecting){
+          entry.target.classList.add('visible')
+          observer.unobserve(entry.target)
+        }
+      })
+    },{
+      threshold:0.2
+    })
+    fadeElement.forEach(element =>{
+      observer.observe(element)
+    })
+    return()=>observer.disconnect()
+  },[])
+
+    
     let [Class, setClass] =useState('letters')
-    name = ["F",'u','l','l','S','t','a', 'c','k', ' ', 'W','e','b',' ','d','e','v','e','l','o','p','e','r']
+    const name = ["F",'u','l','l','S','t','a', 'c','k', ' ','d','e','v','e','l','o','p','e','r','.']
     useEffect(()=>{
       setTimeout(() => {
       setClass('letters-hover')
@@ -18,24 +36,24 @@ const Home = () => {
     <div className='center'>
      <header className="header">
 
-      <h1>
+      <h1 className='fadein'>
         <span className={Class}> H</span>
-        <span className={Class}>i,</span>
+        <span className={Class}>i</span>
+         <span className={Class}>🕸️,</span>
         <br/>
-        
         <span className={`${Class} _12`}>I</span>
         <span className={`${Class} _13`}>'m George,</span>
 
       </h1>
-       <h1 className=''> 
-     <Animate name={name} idx={15} Class={Class}/>
+       <h1 className='top'> 
+        <Animate name={name} idx={15} Class={Class}/>
        </h1>
 
-       <h2 className='sub'>FullStack Developer / Musician</h2>
-       <p>
-      I'm a very ambitious web developer looking for a role
-      in establishment IT company with the opportunity to work
-      with the latest technologies on challenging projects
+       <h2 className='sub fadein'>Turning ideas into something useful, one project at a time.  💡</h2>
+       <p className='fadein'>
+        I'm a very ambitious web developer looking for a role
+        in establishment IT company with the opportunity to work
+        with the latest technologies on challenging projects
       </p>
       
       </header>

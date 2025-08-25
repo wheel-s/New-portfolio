@@ -2,6 +2,7 @@ import React from 'react'
 import './css/animate.scss'
 
 const Animate = ({name, Class, idx}) => {
+
   return (
     <div>
       {  

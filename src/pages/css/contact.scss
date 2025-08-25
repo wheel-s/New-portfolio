@@ -4,23 +4,18 @@
   display: grid;
   justify-items: center;
   h1{
+    color:hsl(200, 10%, 80%);
     font-size: 2rem;
-    margin-bottom: -.11rem;
+    margin-bottom: -.8rem;
   }
     p{
-      font-size: 1.15rem;
+      font-size: 1rem;
+      font-weight: 500;
       text-align: center;
       padding: 1rem;
       margin-bottom: -1.5rem;
-      font-family: "Patrick Hand", cursive;
-      color: white;
-      animation: pulse 1s;
-      &:nth-of-type(1){
-      animation-delay: 1.1s;
-      }
-        &:nth-of-type(2){
-      animation-delay: 1.1s;
-      }
+      color:hsl(200, 10%, 73%);
+    
   }
   .flex{
     display: flex;
@@ -38,13 +33,35 @@
     }
   }
 
+  a{
+    text-decoration: none;
+    
+  }
   .btn{
     display: flex;
     justify-content: center;
-    padding: 8px 10px;
-    border-radius: 5px;
-    color:gray ;
-    letter-spacing: .1rem;
-    font-family: "Merienda", cursive;
+    background-color: hsl(210, 30%, 29%);
+    margin-top: 3rem;
+    padding: 14px 50px;
+    border-radius: 7px;
+    color:white ;
+    letter-spacing: .08rem;
+    font-family: "love ya like a sister", cursive;
+  }
+  .btn:hover{
+      background-color: hsl(210, 30%, 31%);
+  }
+  .img{
+    position: relative;
+    margin-left:.5rem;
+    top: .25rem;
+  }
+  .links{
+    display:flex;
+    margin-top: 3rem;
+    img{
+      margin-left: 1rem;
+   
+    }
   }
 }

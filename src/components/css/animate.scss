@@ -1,3 +1,4 @@
+
 .center{
   margin-left: 5.7rem;
   margin-top: 4rem;
@@ -6,25 +7,26 @@
 }
 
 .letters {
-font-family: "Love Ya Like A Sister", cursive;
+
   display: inline-block;
   opacity: 0;
   animation: bounceIn 1s 1s;
   animation-fill-mode: forwards;
   min-width: 10px;
+  letter-spacing: -2.8px;
   margin-left:2px ;
-   color: hsl(36, 80%, 40%);
+  color: hsl(36, 0%, 85%);
   
 }
 .letters-hover{
- font-family: "Love Ya Like A Sister", cursive;
-  min-width: 10px;
-  display: inline block;
-  animation-fill-mode: both;
-    margin-left:2px ;
-   color: hsl(36, 80%, 40%);
+
+   min-width: 10px;
+   animation-fill-mode: both;
+   margin-left:2px;
+   letter-spacing: -2px;
+   color: hsl(200, 10%, 80%);
   &:hover{
-    animation:bounceIn 1s ;
+    animation:rubberBand 1s ;
     color: hsl(51, 30%, 100%);
   }
 }
